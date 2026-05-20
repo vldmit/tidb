@@ -25,7 +25,9 @@ go_test(
     deps = [
         ":rawkv",
         "//br/pkg/errors",
+        "//br/pkg/utils",
         "//pkg/kv",
+        "//pkg/meta",
         "//pkg/util/codec",
         "@com_github_pingcap_errors//:errors",
         "@com_github_stretchr_testify//require",
